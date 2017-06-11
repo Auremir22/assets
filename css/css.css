@@ -1,0 +1,224 @@
+
+html,body{
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.de_header{
+  	background-color: rgb(57, 86, 114);
+  	position:relative;
+  	height: 187px;
+}
+.de_logo {
+    width: 160px;
+    padding: 35px 15px 15px;
+    margin: 0 auto;
+}
+/*Menu*/
+.de_nav{
+  	background-color: rgb(115, 144, 172);
+  	min-height: 43px;
+  	margin: 16px 0 0;
+}
+ul.de_menu {
+  	max-width: 80%;
+  	height: 100%;
+  	padding: 0 15px;
+    margin:0 auto ;
+    font-size: 0px;
+}
+ul.de_menu li.item {
+    display: block;
+    list-style: none;
+    width: 20%;
+    height: 100%;
+    color: #fff;
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+ul.de_menu li.item a {
+	display: block;
+	height: 100%;
+    padding-top: 10px;
+    color: #fff;
+}
+.de_icon_mobile {
+    color: #fff;
+    padding: 15px;
+}
+
+/*posts*/
+.de_content.container{
+    padding-top: 55px;
+}
+.de_post_wrap {
+    padding-bottom: 35px;
+}
+.de_c_img {
+    min-height: 200px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.de_c_infos{
+	background-color: rgba(115, 144, 172,0.3);
+	position: relative;
+    min-height: 200px;
+	padding: 0;
+}
+
+h2.de_title {
+    background-color: rgb(33, 32, 31);
+    height: 70px;
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 21px;
+    font-size:18px;
+}
+.de_desc_text {
+    padding: 17px;
+    color: #395672;
+}
+.de_read_more {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.de_read_more a {
+	display: block;
+	background: #7390ac;
+	color: #fff;
+	padding: 5px;
+	height: 30px;
+}
+/*single Post*/
+.post-title.entry-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial,sans-serif;
+}
+
+/*search bar*/
+.de_search_wrap.mobile{
+    padding-bottom: 55px;
+}
+.de_search{
+	padding-bottom: 15px;
+}
+.de_search > input[type="search"]{
+	box-sizing: border-box;
+	width: 100%;
+	height: 42px;
+	padding: 5px;
+	border: 2px solid rgb(147, 147, 147);
+	border-radius: 20px;
+}
+.de_button_send {
+    position: absolute;
+    top: 8px;
+    right: 32px;
+    color: rgb(147, 147, 147) !important;
+}
+/*Postcast*/
+.widget{
+	position: relative;
+} 
+.de_wrap_sidebar h2{
+	color: #395672;
+	margin: 10px auto;
+}
+#HTML1 .widget-content{
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.de_wrap_sidebar .widget iframe,.de_wrap_sidebar .widget object,.de_wrap_sidebar .widget embed {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/*Footer*/
+.de_wrap_footer {
+  background-color: rgb(57, 86, 114);
+  position: relative;
+  min-height: 261px;
+  padding: 0px 0px 35px;
+}
+.footer_sidebar .widget h2 {
+    position: relative;
+    padding: 0 0 11px;
+    color: #fff;
+    text-align: center;
+}
+.footer_sidebar .widget h2::before{
+	content: '';
+	display: block;
+	background: #fff;
+	height:2px;
+	width: 90%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.footer_sidebar .widget .widget-content iframe,.footer_sidebar .widget .widget-content .fb_iframe_widget {
+	margin: 0 auto;
+	display: block !important;
+}
+
+/*Social bars*/
+.de_social_wrap {
+	max-width: 314px;
+    padding-top: 90px;
+    margin: 0 auto;
+
+}
+.de_s_icon {
+    background: #fff;
+    width: 60px;
+    min-height: 58px;
+    padding: 5px 10px;
+    margin: 5px auto;
+    color: #395672 !important;
+    text-align: center;
+    border-radius: 9px;
+}
+.de_s_icon a{
+    color: #395672 !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	.de_nav{
+	  	width: 100%;
+	  	height: auto;
+	}
+	.de_nav.active{
+		display: block !important;
+		position: relative;
+		z-index: 1;
+	}
+	ul.de_menu {
+	    max-width: 100%;
+	    padding: 0;
+	}
+	ul.de_menu li.item {
+	    width: 100%;
+	    padding: 15px;
+	    border-bottom: 1px solid rgb(57, 86, 114);
+	}	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+
+}
