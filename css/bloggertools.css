@@ -2,4 +2,9 @@
     background-size: cover;
     min-width: 15px;
     height: 16px;
+    cursor:pointer;
+}
+.tool-button:hover{
+    border:1px solid #000;
+    border-radius:2px;
 }
