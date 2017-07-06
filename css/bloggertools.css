@@ -1,10 +1,10 @@
 .bg-tool {
     background-size: cover;
     min-width: 15px;
-    height: 16px;
+    height: 14px;
     cursor:pointer;
 }
 .tool-button:hover{
-    border:1px solid #000;
+    border:1px solid #72a1ae;
     border-radius:2px;
 }
