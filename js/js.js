@@ -1,5 +1,3 @@
- //key = AIzaSyCXZxUdYbRvuZ0DEWGajzK8BeEXyrVsIgA 
-
 jQuery(document).ready(function($) {
  var opeend = {
  	key:'AIzaSyCXZxUdYbRvuZ0DEWGajzK8BeEXyrVsIgA',
@@ -51,16 +49,14 @@ $.ajax({
 //buscando iframe
 	var regex2 = /\<iframe.+src\=(?:\"|\')(.+?)(?:\"|\')(?:.+?)\>/g;
 	var iframe;
-	iframe = regex2.exec(str)[1];
-//refinando
-	iframe = iframe.replace('https://drive.google.com/file/d/', '');
-	iframe = iframe.replace('/preview', '');
+	iframe = regex2.exec(str)[0];
 	console.log(iframe);
 //alterando
 $('#header').addClass('active');
 $('.mask_img img').attr('src', img);
-$('.player_c').attr('src', 'https://drive.google.com/uc?id='+iframe);
+$('.embed-responsive').html(iframe);
 $('.title_video h2').text(title);
+$('.media_container').html(content);
 $('#main-home').hide();
 $('#post_content').show();
 
