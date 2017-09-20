@@ -1,3 +1,5 @@
+ //key = AIzaSyCXZxUdYbRvuZ0DEWGajzK8BeEXyrVsIgA 
+
 jQuery(document).ready(function($) {
  var opeend = {
  	key:'AIzaSyCXZxUdYbRvuZ0DEWGajzK8BeEXyrVsIgA',
